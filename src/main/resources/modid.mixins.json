@@ -1,11 +1,11 @@
 {
-  "required": true,
-  "package": "net.fabricmc.example.mixin",
+  "required": false,
+  "package": "net.cuddlebat.desmetal.mixins",
   "compatibilityLevel": "JAVA_8",
   "mixins": [
   ],
   "client": [
-    "ExampleMixin"
+    "MixinMain"
   ],
   "injectors": {
     "defaultRequire": 1
