@@ -1,8 +1,7 @@
 package net.cuddlebat.desmetal.metal.component;
 
-public class ComponentOre implements IMetalComponent
+public class ComponentOre extends BaseComponent
 {
-
 	@Override
 	public void init()
 	{
@@ -15,6 +14,5 @@ public class ComponentOre implements IMetalComponent
 	{
 		// TODO Auto-generated method stub
 		return null;
-	}
-
+	}	
 }
